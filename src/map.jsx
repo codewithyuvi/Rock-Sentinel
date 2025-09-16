@@ -163,7 +163,7 @@ const positions = {
 const Dashboard = () => {
   const [activeMenuItem, setActiveMenuItem] = useState('dashboard');
   const [selectedDistrict, setSelectedDistrict] = useState('Bhopal');
-  const [currentDate] = useState('Sep 16, 2024');
+  const [currentDate] = useState('Sep 18, 2025');
 
   const currentData = districtData[selectedDistrict];
 
@@ -238,7 +238,7 @@ const Dashboard = () => {
           {/* Map Area */}
           <div style={styles.mapContainer}>
             <div style={styles.mapCard}>
-              <h2 style={styles.mapTitle}>District Risk Assessment Map</h2>
+              <h2 style={styles.mapTitle}>Risk Map</h2>
               
               {/* SVG Map */}
               <div style={styles.mapWrapper}>
